@@ -1,0 +1,51 @@
+---
+import { detail } from "../../data/data.json";
+---
+
+<section>
+  <div id="details" class="basic-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="text-container">
+            <h2>{detail.title}</h2>
+            <p>
+              {detail.paragraph}
+            </p>
+            <ul class="list-unstyled li-space-lg">
+              {
+                detail.items.map(({ icon, content }) => {
+                  return (
+                    <li class="media">
+                      <i class={`fas fa-${icon}`} />
+                      <div class="media-body">{content}</div>
+                    </li>
+                  );
+                })
+              }
+            </ul>
+            <a class="btn-solid-reg page-scroll" href="sign-up.html"
+              >{detail.action}</a
+            >
+          </div>
+          <!-- end of text-container -->
+        </div>
+        <!-- end of col -->
+        <div class="col-lg-6">
+          <div class="image-container">
+            <img
+              class="img-fluid"
+              src="/images/details.png"
+              alt="alternative"
+            />
+          </div>
+          <!-- end of image-container -->
+        </div>
+        <!-- end of col -->
+      </div>
+      <!-- end of row -->
+    </div>
+    <!-- end of container -->
+  </div>
+  <!-- end of basic-1 -->
+</section>

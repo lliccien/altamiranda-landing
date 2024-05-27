@@ -1,0 +1,191 @@
+{
+  "hero": {
+    "title": "SaaS App HTML Landing Page",
+    "sub-title": "Use Tivo to automate your marketing actions in order to reach a much larger audience",
+    "action": "Sing Up",
+    "image": {
+      "alt": "alternative",
+      "url": "/images/header-software-app.png"
+    }
+  },
+  "detail": {
+    "title": "Now Is The Time To Upgrade Your Marketing Solution",
+    "paragraph": "Target the right customers for your business with the help of Tivo's patented segmentation technology and deploy efficient marketing campaigns. Keep your customers happy and loyal.",
+    "items": [
+      {
+        "icon": "square",
+        "content": "Understand customers and meet their requirements"
+      },
+      {
+        "icon": "square",
+        "content": "Targeted client base with Tivo's efficient technology"
+      }
+    ],
+    "action": "Sing Up",
+    "image": {
+      "alt": "alternative",
+      "url": "/images/details.png"
+    }
+  },
+  "feature": {
+    "title": "Pricing Options Table",
+    "features": [
+      {
+        "title": "Basic",
+        "price": "Free",
+        "frequency": "14 days trial",
+        "items": [
+          {
+            "icon": "check",
+            "content": "Email Marketing Module"
+          },
+          {
+            "icon": "check",
+            "content": "User Control Management"
+          },
+          {
+            "icon": "times",
+            "content": "List Building And Cleaning"
+          },
+          {
+            "icon": "times",
+            "content": "Collected Data Reports"
+          },
+          {
+            "icon": "times",
+            "content": "Planning And Evaluation"
+          }
+        ],
+        "action": "Sing Up"
+      },
+      {
+        "title": "ADVANCED",
+        "price": "29.99",
+        "frequency": "monthly",
+        "items": [
+          {
+            "icon": "check",
+            "content": "Email Marketing Module"
+          },
+          {
+            "icon": "check",
+            "content": "User Control Management"
+          },
+          {
+            "icon": "check",
+            "content": "List Building And Cleaning"
+          },
+          {
+            "icon": "times",
+            "content": "Collected Data Reports"
+          },
+          {
+            "icon": "times",
+            "content": "Planning And Evaluation"
+          }
+        ],
+        "action": "Sing Up"
+      },
+      {
+        "title": "COMPLETE",
+        "price": "39.99",
+        "frequency": "monthly",
+        "items": [
+          {
+            "icon": "check",
+            "content": "Email Marketing Module"
+          },
+          {
+            "icon": "check",
+            "content": "User Control Management"
+          },
+          {
+            "icon": "check",
+            "content": "List Building And Cleaning"
+          },
+          {
+            "icon": "check",
+            "content": "Collected Data Reports"
+          },
+          {
+            "icon": "check",
+            "content": "Planning And Evaluation"
+          }
+        ],
+        "action": "Sing Up"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Si estas interesado en algun otro sercivicio tecnologicos no dudes en contactarnos.",
+    "action": "Contactanos",
+    "social": [
+      {
+        "icon": "facebook-f",
+        "name": "Facebook",
+        "url": "https://www.facebook.com/altamiranda"
+      },
+      {
+        "icon": "x-twitter",
+        "name": "x",
+        "url": "https://www.x.com/altamiranda"
+      },
+      {
+        "icon": "instagram",
+        "name": "instagram",
+        "url": "https://www.instagram.com/altamiranda"
+      },
+      {
+        "icon": "linkedin-in",
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/altamiranda"
+      }
+    ]
+  },
+  "footer": {
+    "section-about": {
+      "title": "About Tivo",
+      "content": "We're passionate about designing and developing one of the best marketing apps in the market"
+    },
+    "section-links": {
+      "title": "Important Links",
+      "items": [
+        {
+          "icon": "square",
+          "content": "Our business partners ",
+          "link": "startupguide.com",
+          "url": "https://www.altamiranda/"
+        },
+        {
+          "icon": "square",
+          "content": "Read our",
+          "link": "Terms & Conditions, Privacy Policy",
+          "url": "https://www.altamiranda/"
+        }
+      ]
+    },
+    "section-info": {
+      "title": "Address",
+      "items": [
+        {
+          "icon": "map-marker-alt",
+          "content": "22 Innovative, San Francisco, CA 94043, US",
+          "link": "",
+          "url": ""
+        },
+        {
+          "icon": "envelope",
+          "content": "",
+          "link": "info@altamiranda.com",
+          "url": "mailto:info@altamiranda.com"
+        },
+        {
+          "icon": "phone",
+          "content": "",
+          "link": "3001234567",
+          "url": "tel:3001234567"
+        }
+      ]
+    }
+  }
+}
