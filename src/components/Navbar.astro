@@ -60,4 +60,19 @@
       navbar?.classList.remove("top-nav-collapse");
     }
   });
+
+  const collapseMenu = document.querySelector(".navbar-toggler");
+  const navbarCollapse = document.querySelector(".navbar-collapse");
+  const menuItems = document.querySelectorAll(".nav-item a");
+
+  collapseMenu?.addEventListener("click", () => {
+    navbarCollapse?.classList.toggle("show");
+    menuItems.forEach((item) => {
+      item.addEventListener("click", () => {
+        if (window.innerWidth < 992) {
+          navbarCollapse?.classList.remove("show");
+        }
+      });
+    });
+  });
 </script>
