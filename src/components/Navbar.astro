@@ -9,7 +9,10 @@
 
     <!-- Image Logo -->
     <a class="navbar-brand logo-image" href="index.html"
-      ><img src="images/logo.svg" alt="Altamiranda" /></a
+      ><img
+        src={`${import.meta.env.BASE_URL}/images/logo.svg`}
+        alt="Altamiranda"
+      /></a
     >
 
     <!-- Mobile Menu Toggle Button -->
@@ -50,7 +53,6 @@
 </nav>
 <script>
   const navbar = document.querySelector("nav.navbar");
-  console.log(navbar);
   window.addEventListener("scroll", () => {
     if (window.scrollY > 0) {
       navbar?.classList.add("top-nav-collapse");

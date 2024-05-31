@@ -35,8 +35,8 @@ import { detail } from "../../data/data.json";
           <div class="image-container">
             <img
               class="img-fluid"
-              src="/images/details.png"
-              alt="alternative"
+              src={`${import.meta.env.BASE_URL}/${detail.image.url}`}
+              alt={detail.image.alt}
             />
           </div>
           <!-- end of image-container -->

@@ -25,7 +25,7 @@ import { hero } from "../../data/data.json";
               <div class="img-wrapper">
                 <img
                   class="img-fluid"
-                  src={hero.image.url}
+                  src={`${import.meta.env.BASE_URL}/${hero.image.url}`}
                   alt={hero.image.alt}
                 />
               </div>
